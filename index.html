@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <script>
+    var cssurl = '//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css';
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cssurl = '//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css';
+    }
+    var linktag = document.createElement('link');
+    linktag.setAttribute('rel', 'stylesheet');
+    linktag.setAttribute('href', cssurl);
+    document.head.appendChild(linktag);
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'A mystery game Wiki',
+      repo: 'https://github.com/kuzumajo/wiki',
+      loadSidebar: true,
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
