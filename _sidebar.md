@@ -3,3 +3,4 @@
 * [剧情简介](plots.md)
 * [战斗系统](battle.md)
 * [法术系统](mahou.md)
+* [世界观](world.md)
