@@ -4,3 +4,5 @@
 * [战斗系统](battle.md)
 * [法术系统](mahou.md)
 * [世界观](world.md)
+* [货币系统](coin.md)
+* [关卡设定](stage.md)
