@@ -7,3 +7,4 @@
 * [货币系统](coin.md)
 * [关卡设定](stage.md)
 * [地图&房间设定](map.md)
+* [盾与手套搭配](shielder.md)
